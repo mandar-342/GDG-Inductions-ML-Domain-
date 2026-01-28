@@ -2,10 +2,9 @@
 # Task 2 – Analytical Chatbot (RAG & Explanation)
 
 ## 📌 Brief Task Description
-This project implements an **Analytical Chatbot** that allows users to ask natural language questions about stock market movements.
-The system identifies relevant stock tickers, analyzes recent price trends, retrieves contextual financial news, and explains market behavior using a **Retrieval-Augmented Generation (RAG)** approach.
+This task involves building an analytical chatbot that allows users to ask natural language questions about stock market movements. The system identifies relevant stock tickers from the query, analyzes recent price trends, and retrieves related financial news to provide contextual understanding of market behavior.
 
-This is an **individual task submission**, completed according to the provided instructions.
+The chatbot follows a Retrieval-Augmented Generation (RAG) approach, where external information is retrieved and combined with an LLM to generate clear explanations. A modular, agent-based architecture is used to separate intent understanding, news retrieval, trend analysis, and explanation generation. This task highlights the application of RAG, LLMs, and structured reasoning to explain real-world data.
 
 ---
 
@@ -60,11 +59,6 @@ git clone <your-github-repo-url>
 cd task-2-analytical-chatbot
 ```
 
-### 2️⃣ Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
 ### 3️⃣ Add API Keys (Locally or in Google Colab)
 ⚠️ **Do NOT hardcode or commit API keys to this repository.**
 
@@ -82,33 +76,8 @@ NEWS_API_KEY = "your_newsapi_key"
 analytical_chatbot("Why did Apple stock drop?")
 ```
 
----
-
-## 📸 Related Screenshots
-Add screenshots showing:
-- Successful execution in Google Colab
-- Example chatbot responses
-
----
-
-## 🌐 Hosted URL
-Not hosted.
-
----
-
 ## 🔐 Security Note
 - This repository **does NOT contain any real API keys or secrets**.
 - All sensitive credentials must be provided locally and never committed to version control.
 
----
-
-## ⚠️ Notes
-- This is an **individual task submission** (no collaboration).
-- The task is **self-contained** and represents one valid interpretation.
-- Code is submitted even if incomplete, as per instructions.
-- Emphasis is on **clarity, structure, and correct application of concepts**.
-
----
-
-## 👤 Author
 Individual submission for **Task 2 – Analytical Chatbot (RAG & Explanation)**.
