@@ -2,10 +2,9 @@
 # Task 1 – Time Series Prediction
 
 ## 📌 Brief Task Description
-This project focuses on **Time Series Prediction**, where historical sequential data is analyzed to forecast future values.  
-The task demonstrates understanding of time-dependent data, preprocessing, modeling, and evaluation techniques.
+This task focuses on time series prediction, where historical data collected over time is analyzed to forecast future values. Since time series data has a temporal structure, the order of observations is preserved while exploring patterns such as trends and variations. Visualizations are used to understand how the data evolves over time and to gain insights before modeling.
 
-This is an **individual task submission**, completed as per the given instructions.
+A predictive model is then trained on past observations to estimate future values, ensuring a time-aware train–test split to avoid data leakage. The model’s predictions are compared with actual values and visualized for interpretation. This task demonstrates a clear understanding of time-dependent data, forecasting workflow, and result analysis
 
 ---
 
@@ -45,36 +44,11 @@ git clone <your-github-repo-url>
 cd task-1-time-series-prediction
 ```
 
-### 2️⃣ Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
 ### 3️⃣ Run the Notebook
 - Open `Task_1_PS1_GDG_FINAL_READY.ipynb` in Google Colab or Jupyter
 - Run all cells sequentially
 
----
-
-## 📸 Related Screenshots
-Add screenshots of:
-- Time series plots
-- Prediction vs actual graphs
-- Final outputs
-
----
 
 ## 🌐 Hosted URL
 Not hosted.
 
----
-
-## ⚠️ Notes
-- This repository **does not contain any API keys or secrets**.
-- The task is self-contained and represents one valid interpretation.
-- Code is submitted even if incomplete, as per instructions.
-
----
-
-## 👤 Author
-Individual submission for **Task 1 – Time Series Prediction**.
