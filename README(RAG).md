@@ -80,4 +80,4 @@ analytical_chatbot("Why did Apple stock drop?")
 - This repository **does NOT contain any real API keys or secrets**.
 - All sensitive credentials must be provided locally and never committed to version control.
 
-Individual submission for **Task 2 – Analytical Chatbot (RAG & Explanation)**.
+
